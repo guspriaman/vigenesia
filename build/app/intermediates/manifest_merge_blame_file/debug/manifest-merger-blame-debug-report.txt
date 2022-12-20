@@ -1,0 +1,138 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.bankingapp"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\xampp\htdocs\vigenesia\android\app\src\main\AndroidManifest.xml:3:5-67
+14-->C:\xampp\htdocs\vigenesia\android\app\src\main\AndroidManifest.xml:3:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:nb_utils] C:\xampp\htdocs\vigenesia\build\nb_utils\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-79
+15-->[:nb_utils] C:\xampp\htdocs\vigenesia\build\nb_utils\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-76
+16
+17    <application
+17-->C:\xampp\htdocs\vigenesia\android\app\src\main\AndroidManifest.xml:5:4-42:19
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.7.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\b9a960218f5163997c0fdfa3d3078c0e\core-1.7.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\xampp\htdocs\vigenesia\android\app\src\main\AndroidManifest.xml:7:9-43
+21        android:label="Vigenesia" >
+21-->C:\xampp\htdocs\vigenesia\android\app\src\main\AndroidManifest.xml:6:9-34
+22        <activity
+22-->C:\xampp\htdocs\vigenesia\android\app\src\main\AndroidManifest.xml:8:9-36:20
+23            android:name="com.example.bankingapp.MainActivity"
+23-->C:\xampp\htdocs\vigenesia\android\app\src\main\AndroidManifest.xml:9:13-41
+24            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+24-->C:\xampp\htdocs\vigenesia\android\app\src\main\AndroidManifest.xml:12:13-163
+25            android:hardwareAccelerated="true"
+25-->C:\xampp\htdocs\vigenesia\android\app\src\main\AndroidManifest.xml:13:13-47
+26            android:launchMode="singleTop"
+26-->C:\xampp\htdocs\vigenesia\android\app\src\main\AndroidManifest.xml:10:13-43
+27            android:theme="@style/LaunchTheme"
+27-->C:\xampp\htdocs\vigenesia\android\app\src\main\AndroidManifest.xml:11:13-47
+28            android:windowSoftInputMode="adjustResize" >
+28-->C:\xampp\htdocs\vigenesia\android\app\src\main\AndroidManifest.xml:14:13-55
+29
+30            <!--
+31                 Specifies an Android theme to apply to this Activity as soon as
+32                 the Android process has started. This theme is visible to the user
+33                 while the Flutter UI initializes. After that, this theme continues
+34                 to determine the Window background behind the Flutter UI.
+35            -->
+36            <meta-data
+36-->C:\xampp\htdocs\vigenesia\android\app\src\main\AndroidManifest.xml:19:13-22:17
+37                android:name="io.flutter.embedding.android.NormalTheme"
+37-->C:\xampp\htdocs\vigenesia\android\app\src\main\AndroidManifest.xml:20:15-70
+38                android:resource="@style/NormalTheme" />
+38-->C:\xampp\htdocs\vigenesia\android\app\src\main\AndroidManifest.xml:21:15-52
+39            <!--
+40                 Displays an Android View that continues showing the launch screen
+41                 Drawable until Flutter paints its first frame, then this splash
+42                 screen fades out. A splash screen is useful to avoid any visual
+43                 gap between the end of Android's launch screen and the painting of
+44                 Flutter's first frame.
+45            -->
+46            <meta-data
+46-->C:\xampp\htdocs\vigenesia\android\app\src\main\AndroidManifest.xml:28:13-31:17
+47                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+47-->C:\xampp\htdocs\vigenesia\android\app\src\main\AndroidManifest.xml:29:15-79
+48                android:resource="@drawable/launch_background" />
+48-->C:\xampp\htdocs\vigenesia\android\app\src\main\AndroidManifest.xml:30:15-61
+49
+50            <intent-filter>
+50-->C:\xampp\htdocs\vigenesia\android\app\src\main\AndroidManifest.xml:32:13-35:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->C:\xampp\htdocs\vigenesia\android\app\src\main\AndroidManifest.xml:33:17-68
+51-->C:\xampp\htdocs\vigenesia\android\app\src\main\AndroidManifest.xml:33:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->C:\xampp\htdocs\vigenesia\android\app\src\main\AndroidManifest.xml:34:17-76
+53-->C:\xampp\htdocs\vigenesia\android\app\src\main\AndroidManifest.xml:34:27-74
+54            </intent-filter>
+55        </activity>
+56        <!--
+57             Don't delete the meta-data below.
+58             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+59        -->
+60        <meta-data
+60-->C:\xampp\htdocs\vigenesia\android\app\src\main\AndroidManifest.xml:39:9-41:33
+61            android:name="flutterEmbedding"
+61-->C:\xampp\htdocs\vigenesia\android\app\src\main\AndroidManifest.xml:40:13-44
+62            android:value="2" />
+62-->C:\xampp\htdocs\vigenesia\android\app\src\main\AndroidManifest.xml:41:13-30
+63
+64        <activity
+64-->[:url_launcher_android] C:\xampp\htdocs\vigenesia\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+65            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+65-->[:url_launcher_android] C:\xampp\htdocs\vigenesia\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+66            android:exported="false"
+66-->[:url_launcher_android] C:\xampp\htdocs\vigenesia\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+67            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+67-->[:url_launcher_android] C:\xampp\htdocs\vigenesia\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+68
+69        <uses-library
+69-->[androidx.window:window:1.0.0-beta04] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+70            android:name="androidx.window.extensions"
+70-->[androidx.window:window:1.0.0-beta04] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+71            android:required="false" />
+71-->[androidx.window:window:1.0.0-beta04] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+72        <uses-library
+72-->[androidx.window:window:1.0.0-beta04] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+73            android:name="androidx.window.sidecar"
+73-->[androidx.window:window:1.0.0-beta04] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+74            android:required="false" />
+74-->[androidx.window:window:1.0.0-beta04] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+75
+76        <provider
+76-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\8d120aa649c2aed370574c7028952cac\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+77            android:name="androidx.startup.InitializationProvider"
+77-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\8d120aa649c2aed370574c7028952cac\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+78            android:authorities="com.example.bankingapp.androidx-startup"
+78-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\8d120aa649c2aed370574c7028952cac\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+79            android:exported="false" >
+79-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\8d120aa649c2aed370574c7028952cac\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+80            <meta-data
+80-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\8d120aa649c2aed370574c7028952cac\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+81                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+81-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\8d120aa649c2aed370574c7028952cac\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+82                android:value="androidx.startup" />
+82-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\8d120aa649c2aed370574c7028952cac\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+83            <meta-data
+83-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\2dd7e1e94a0e65810db6291100ebf315\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+84                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+84-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\2dd7e1e94a0e65810db6291100ebf315\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+85                android:value="androidx.startup" />
+85-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\2dd7e1e94a0e65810db6291100ebf315\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+86        </provider>
+87    </application>
+88
+89</manifest>
