@@ -1,4 +1,24 @@
-# Vigenesia
+
+
+
+# Halo sobat bsi 
+
+Berikut tugas kelompok kami perancangan apk Vigenesia
+yang beranggotakan 
+Muhammad Raihan Tamam
+Nim : 19200373
+Muhammad Raga Sucianata
+Nim : 19200211
+Nama: Guspriaman Warasi
+Nim: 19200070
+Nama: Suyatno Hadi Pranoto
+Nim: 19200076
+Nama : Rien Handayani
+NIM : 19200121
+
+# semester 5 
+# fukultas teknik dan informatika
+# jurusan sistem informasi
 
 A new Flutter project.
 
